@@ -33,7 +33,7 @@ public class FactureServiceImpl implements IFactureService {
 	public List<Facture> retrieveAllFactures() {
 		List<Facture> factures = (List<Facture>) factureRepository.findAll();
 		for (Facture facture : factures) {
-			log.info(" facture : " + facture);
+			//log.info(" facture : " + facture);
 		}
 		return factures;
 	}
