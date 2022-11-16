@@ -16,6 +16,6 @@ public interface ICategorieProduitService {
 	CategorieProduit updateCategorieProduit(CategorieProduit cp);
 
 	CategorieProduit retrieveCategorieProduit(Long id);
-	String retrieveStatusCategorie();
+	
 
 }
