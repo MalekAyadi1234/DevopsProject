@@ -22,8 +22,17 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Operateur implements Serializable{
+	
+	public Operateur(String nom, String prenom, String password) {
+		super();
+		this.nom = nom;
+		this.prenom = prenom;
+		this.password = password;
+	}
+	
 	private static final long serialVersionUID = 1L;
 
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idOperateur;
