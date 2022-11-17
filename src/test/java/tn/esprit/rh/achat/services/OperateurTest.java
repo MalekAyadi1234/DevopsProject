@@ -72,7 +72,7 @@ public class OperateurTest {
     }
 	
     @Test()
-    public void should_throw_exception_when_user_doesnt_exist()  {
+    public void shouldthrowexceptionwhenuserdoesntexist()  {
     	Operateur oper = new Operateur();
     	oper.setNom("orangeeezz");
     	oper.setIdOperateur(100L);
