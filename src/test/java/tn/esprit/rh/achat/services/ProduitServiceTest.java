@@ -11,10 +11,10 @@ import java.util.List;
 @SpringBootTest
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 */
-public class ProduitServiceTest {
+//public class ProduitServiceTest {
 
-    @Autowired
-    IProduitService ps;
+  //  @Autowired
+    //IProduitService ps;
 /*
     @Test
     @Order(1)
@@ -24,4 +24,4 @@ public class ProduitServiceTest {
     }*/
 
 
-}
+//}
